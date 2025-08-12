@@ -11,12 +11,12 @@ from src.solver import solve_math_problem
 from src.explanation_generator import generate_explanation
 
 st.set_page_config(
-    page_title="My University Math Assistant Bot",
+    page_title="University Math Assistant Bot",
     page_icon="📚",
     layout="centered",
 )
 
-st.title("📚 My University Math Assistant Bot")
+st.title("📚 University Math Assistant Bot")
 st.write("Type a math expression or command. I'll give a short human answer and an optional formatted view.")
 st.write("Examples: `2+2`, `x**2 - 4`, `diff(x**3, x)`, `integrate(x**2, x)`")
 
